@@ -5,7 +5,7 @@ from endpoints import handle_insert, handle_select
 
 def lambda_handler(event, context):
     # Route based on method and path
-    if event['httpMethod'] == 'POST' and event['path'] == '/njruss01/insert':
+    if event['httpMethod'] == 'POST' and event['path'] == '/instructor/insert':
         try:
             body = json.loads(event['body'])
             return handle_insert(body)
@@ -15,7 +15,7 @@ def lambda_handler(event, context):
                 'body': json.dumps('Invalid JSON format')
             }
 
-    elif event['httpMethod'] == 'POST' and event['path'] == '/njruss01/select':
+    elif event['httpMethod'] == 'POST' and event['path'] == '/instructor/select':
         try:
             body = json.loads(event['body'])
             return handle_select(body)
