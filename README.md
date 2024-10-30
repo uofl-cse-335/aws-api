@@ -5,3 +5,6 @@ Sample code to help students get started with publishing their own API code to A
 
 aws lambda update-function-code --function-name cse_335_fall_2024_usernameLambdaFunction --zip-file fileb://function.zip --profile fakeprofile
 
+## Api Endpoint
+
+https://iu2mua5qjd.execute-api.us-east-1.amazonaws.com/prod/
