@@ -1,0 +1,9 @@
+{
+    "AccessKey": {
+        "UserName": "cse_335_fall_2024_fakeusername",
+        "AccessKeyId": "fakeusername",    //this one is the AWS Access Key ID
+        "Status": "Active",
+        "SecretAccessKey": "fakekey", //this one is the AWS Secret Access Key
+        "CreateDate": "2024-10-24T21:44:25+00:00"
+    }
+}
